@@ -26,13 +26,13 @@ The application is accepted if:
 
 ### Explain the algorithm seen in `third.py`. Use a flowchart, structogram or pseudo code. [2p]
 
-The <count_letter_in_string> function gets two parameters: <string> and <letter>
+> The _count_letter_in_string_ function gets two parameters: _string_ and _letter_
 
-<if> the type of the <string> is not a string: <return> 0 as value, then <count> if the variable has also 0 as value
+> _if_ the _type_ of the string is not a _string_: _return_ 0 as value, then _count_ if the variable has also 0 as value
 
-<for> all <current_letter> in <string> --> <if> <current_letter> is equal to <letter> --> increase <count> with 1
+> _for_ all _current_letter_ in _string_ --> _if current_letter_ is equal to _letter_ --> increase _count_ with 1
 
-<return> the value of <count>
+> _return_ the value of _count_
 
 ### How can you create a graphical user interface and draw a rectangle on it in python? What are the tools needed for it? [2p]
 
