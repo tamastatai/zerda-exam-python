@@ -15,3 +15,14 @@ def string_writer(file_name, string):
         return False
 
 print(string_writer("jam.txt", "strawberry"))
+
+# def another_writer(file_name, string):
+#     try:
+#         f = open(file_name, "w")
+#         for x in range(10):
+#             f.write(string)
+#         return True
+#     except:
+#         return False
+#
+# print(another_writer("jam.txt", "strawberry"))
