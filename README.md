@@ -44,13 +44,13 @@ For drawing a rectangle in Python you should use Tkinter, which is the interface
 
 Example:
 
-root = Tk()
+>root = Tk()
 
-canvas = Canvas(root, width=2560, height=1600)
-canvas.pack()
-canvas.create_rectangle(800, 800, 1300, 1300, fill="green")
+>canvas = Canvas(root, width=2560, height=1600)
+>canvas.pack()
+>canvas.create_rectangle(800, 800, 1300, 1300, fill="green")
 
-root.mainloop()
+>root.mainloop()
 
 ### What does V stand for in MVC? [2p]
 
