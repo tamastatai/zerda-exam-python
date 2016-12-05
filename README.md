@@ -25,7 +25,14 @@ The application is accepted if:
 ## 6. Question time! (~30 mins) [6p]
 
 ### Explain the algorithm seen in `third.py`. Use a flowchart, structogram or pseudo code. [2p]
-#### Your answer:
+
+The <count_letter_in_string> function gets two parameters: <string> and <letter>
+
+<if> the type of the <string> is not a string: <return> 0 as value, then <count> if the variable has also 0 as value
+
+<for> all <current_letter> in <string> --> <if> <current_letter> is equal to <letter> --> increase <count> with 1
+
+<return> the value of <count>
 
 ### How can you create a graphical user interface and draw a rectangle on it in python? What are the tools needed for it? [2p]
 
