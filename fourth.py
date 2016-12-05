@@ -20,7 +20,7 @@
 
 ################################################
 
-class Rocket():
+class Rocket:
     def __init__(self, rocket_type, starting_fuel_level, number_of_launches):
         self.type = rocket_type
         self.fuel = starting_fuel_level
@@ -46,8 +46,7 @@ class Rocket():
         return used_fuel
 
     def getStats(self):
-        return("name: " + self.type + "", " + 'fuel: " + str(self.fuel))
-
+        return ('name: ' + self.type + ', fuel: ' + str(self.fuel) + ', launches: ' + str(self.launches))
 
 falcon1 = Rocket('falcon1', 4, 1)
 returned_falcon9 = Rocket('falcon9', 11, 1)
